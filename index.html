@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Bits</title>
+    <script src="https://kit.fontawesome.com/ce4ccad15b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" type="image/png" href="./assets/img/logo-enca.png">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="main-header">
+        <nav class="navbar fixed-top nav-bg navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img src="./assets/img/8bit-logo.png"
+                        alt="Logo de la empresa 8-bits"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Componentes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/ProductAll.html">Todos los componentes</a></li>
+                                <li><a class="dropdown-item" href="./pages/Placas.html">Placas de video</a></li>
+                                <li><a class="dropdown-item" href="./pages/micros.html">Microprocesadores</a></li>
+                                <li><a class="dropdown-item" href="./pages/ram.html">Memorias RAM</a></li>
+                                <li><a class="dropdown-item" href="./pages/PlacasMadres.html">Placas madre</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/conocenos.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link col-md-12 btn btn-8bit" href="#" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Suscribete</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex search-none me-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Componente" aria-label="Search">
+                        <button class="btn btn-8bit" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link col-md-12 btn btn-8bit me-auto"
+                                href="./pages/iniciar-sesion.html">Iniciar sesion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header-->
+
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img style="display: block;" class="img-fluid" src="./assets/img/imagen1.jpg" alt="" />
+                    <div class="container">
+                        <div class="carousel-caption text-start"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img style="display: block;" class="img-fluid" src="./assets/img/imagen2.jpg" alt="" />
+                    <div class="container">
+                        <div class="carousel-caption"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img style="display: block;" class="img-fluid" src="./assets/img/imagen3.jpg" alt="" />
+                    <div class="container">
+                        <div class="carousel-caption text-end"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container my-container">
+
+            <div class="row">
+                <div class="col col-12 col-md-9">
+                    <h1 class="bg-title">Review de componentes</h1>
+                    <a href="./pages/review-intel-core-i7-13700k.html">
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading fw-normal lh-1">
+                                    Intel Core i7-13700k
+                                    <span class="text-info">El genio detrás de la pantalla</span>
+                                </h2>
+                                <p class="lead">
+                                    El todopoderoso procesador de Intel, maestro del multitasking.
+                                </p>
+                                <button type="button" class="btn btn-outline-info btn-lg">Ver mas</button>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="img-fluid" src="./assets/img/intel-core-i7-13700k-2.png" alt="" />
+                            </div>
+                    </a>
+                </div>
+
+                <hr class="featurette-divider" />
+
+                <a href="./pages/review-rx7900xt.html">
+                    <div class="row featurette">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading fw-normal lh-1">
+                                RX 7900 XTX
+                                <span class="text-info">El artista gráfico interno</span>
+                            </h2>
+                            <p class="lead">
+                                La reina del rendimiento gráfico, la creadora de mundos.
+                            </p>
+                            <button type="button" class="btn btn-outline-info btn-lg">Ver mas</button>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid" src="./assets/img/RX-7900-XT.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+
+                <hr class="featurette-divider" />
+
+                <a href="./pages/review-rtx4090.html">
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading fw-normal lh-1">
+                                RTX 4090
+                                <span class="text-info"> La obra maestra definitiva </span>
+                            </h2>
+                            <p class="lead">La emperatriz de los gráficos virtuales.</p>
+                            <button type="button" class="btn btn-outline-info btn-lg">Ver mas</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-fluid" src="./assets/img/RTX-4090.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+
+                <hr class="featurette-divider" />
+
+                <a href="./pages/review-corsair-vengance.html">
+                    <div class="row featurette">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading fw-normal lh-1">
+                                Corsair Vengance
+                                <span class="text-info">Las maestras de las tareas</span>
+                            </h2>
+                            <p class="lead">
+                                Todo ordenador tiene su limite, pero con estas vamos mas alla para seguir soportando las
+                                tareas mas intensas.
+                            </p>
+                            <button type="button" class="btn btn-outline-info btn-lg">Ver mas</button>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid" src="./assets/img/Corsair-Vengeance-2.png" alt="" />
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col border-col-up">
+                <div class="col-12 up-content">
+                    <h2 class="mt-4 text-center">Ultimos post</h2>
+                    <a href="./pages/review-ryzen9-7950x.html" class="up-container">
+                        <div class="card bg-card mt-4 mb-2 bg-up">
+                            <img src="./assets/img/ryzen9-7950.png" class="card-img-top"
+                                alt="Caja del microprocesador Ryzen 9 7950x">
+                            <div class="card-body">
+                                <h5 class="card-title">Ryzen 9 7950X</h5>
+                                <p class="card-text">Hasta ahora AMD era bastante estricta en cuanto al diseño térmico
+                                    de sus
+                                    procesadores domésticos, toda su gama más media y alta de procesadores...</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./pages/review-corsair-vengance.html" class="up-container">
+                        <div class="card bg-card mt-4 mb-2 bg-up">
+                            <img src="./assets/img/Corsair-Vengeance.png" class="card-img-top"
+                                alt="Unas memorias ram de la marca corsair, modelo vengance">
+                            <div class="card-body">
+                                <h5 class="card-title">Corsair Vengance</h5>
+                                <p class="card-text">Estas Corsair Vengeance LPX de 64 GB se caracterizan por ser cuatro
+                                    módulos de 16
+                                    GB DDR4 y funcionar a una velocidad conjunta de 3.000 MHz, lo que las hace...</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="./pages/review-rtx4080ti.html" class="up-container">
+                        <div class="card bg-card mt-4 mb-2 bg-up">
+                            <img src="./assets/img/RTX-4080-TI.png" class="card-img-top"
+                                alt="Caja de una placa de video rtx 4080 ti">
+                            <div class="card-body">
+                                <h5 class="card-title">Nvidia RTX 4080</h5>
+                                <p class="card-text">La tarjeta gráfica más ambiciosa que tiene NVIDIA actualmente ha
+                                    puesto el listón muy alto. Durante nuestras pruebas la GeForce RTX 4090 nos demostró
+                                    que...</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.oldspice.com.mx/es-mx?utm_source=Google&utm_medium=Cost-per-click+Responsive&utm_campaign=BRAND+Consideration&utm_content=+Google-Search&gclid=Cj0KCQjw8e-gBhD0ARIsAJiDsaVh1hiFsLcXYbWOWF9KmRPBinDHtDvZYHodRB-PSNGdLb1p4UYjnJsaAplZEALw_wcB"
+                        class="up-continer" target="_blank">
+                        <div class="card bg-card mt-4 mb-2 bg-up">
+                            <img src="./assets/img/anuncio.gif" class="card-img-top" alt="Publicidad">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <nav aria-label="page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="./pages/error-404.html" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="./pages/error-404.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="./pages/error-404.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="./pages/error-404.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="./pages/error-404.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="./pages/error-404.html">5</a></li>
+                <li class="page-item"><a class="page-link" href="./pages/error-404.html">6</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="./pages/error-404.html" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        </div>
+
+    </main>
+
+    <!--Footer-->
+
+    <footer class="container-fluid footer-container">
+        <div class="container">
+            <div class="row pb-2 pt-2">
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <img src="./assets/img/8bit-logo.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 footer-redes">
+                    <h5>Redes Sociales</h5>
+                    <a href="./pages/error-404.html"> <i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="./pages/error-404.html"> <i class="fa-brands fa-facebook"></i> Facebook</a>
+                    <a href="./pages/error-404.html"> <i class="fa-brands fa-youtube"></i> Youtube</a>
+                    <a href="./pages/error-404.html"> <i class="fa-brands fa-twitter"></i> Twitter</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <p>Copyright © 8-Bits</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer-->
+
+    <!--Modal-->
+    <div class="modal modal-edit fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog text-white">
+            <div class="modal-content bg-modal">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="exampleModalLabel">Suscribete para mas beneficios</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Puedes suscribirte a nuestras review de los mejores componentes de PC del mercado. Tendras muchos
+                        beneficios al estar actualizado sobre el mundo de las computadoras.</p>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Ingresa tu correo electronico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="nombre@ejemplo.com">
+                    </div>
+
+                    <div class="alert alert-warning" role="alert">
+                        Recibiras un correo de confirmacion para completar la suscripcion.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-8bit">Suscribete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal-->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
